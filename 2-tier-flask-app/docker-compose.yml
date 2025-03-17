@@ -8,8 +8,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: skyops
-      MYSQL_USER: admin
-      MYSQL_PASSWORD: admin
+      MYSQL_USER: root
     volumes:
       - mysql-data:/var/lib/mysql 
     networks:
